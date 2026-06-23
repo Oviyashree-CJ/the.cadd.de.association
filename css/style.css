@@ -17,6 +17,7 @@ background:url('../images/bg.jpeg') center/cover fixed;
 
 .navbar{
 background:transparent;
+font-weight: bold;
 }
 
 .logo-container{
@@ -336,13 +337,18 @@ font-size:28px;
 }
 
 .service-card{
-font-size:14px;
-padding:20px;
-}
+        padding:10px;
+    }
 
-.service-card h5{
-font-size:16px;
-}
+    .service-card i{
+        font-size:30px;
+        margin-bottom:10px;
+    }
+
+    .service-card h5{
+        font-size:14px;
+        margin:0;
+    }
 
 .team-card{
 font-size:14px;
@@ -362,10 +368,6 @@ font-size:16px !important;
 
 #about p{
 font-size:14px;
-}
-
-.service-card i{
-font-size:36px;
 }
 
 .logo{
